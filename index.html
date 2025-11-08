@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
     <title>Donate Today</title>
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-    
+    <header class="display-flex">
+        <div class="header-content">
+            <h1 class="header-title">Let's Help Those Who Are More In Need</h1>
+            <p class="header-description description">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+            <button class="header-btn btn ">Donate Now</button>
+        </div>
+    </header>
+    <main>
+        <section class="donate-today">
+            <h3 class="donate-today-title title">Donate Today</h3>
+            <p class="donate-today-description description">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+           <form class="donation-amounts">
+             <div class="donation-amounts-input">
+                <div class="donate-today-boxs display-flex">
+                <div class="amount">
+                 <input type="radio" name="taka" id="opt1">
+                 <label class="hundredtk"  for="opt1">100tk</label>
+                </div>
+                <div class="amount">
+                 <input type="radio" name="taka" id="opt2">
+                 <label class="hundredtk" for="opt2">200tk</label>
+                </div>
+                <div class="amount">
+                 <input type="radio" name="taka" id="opt3">
+                 <label class="hundredtk" for="opt3">500tk</label>
+                </div>
+                <div class="amount">
+                 <input type="radio" name="taka" id="opt4">
+                 <label class="thousandtk" for="opt4">1000tk</label>
+                </div >
+                <div class="amount">
+                <input type="radio" name="taka" id="opt5">
+                <label class="thousandtk" for="opt5">5000tk</label>
+                </div>
+            </div>
+            <div><input type="number" placeholder="Other Amount (Taka)" name="" id="custom-donation-amount"></div>
+             </div>
+            <div><input type="submit" class="btn" value="Donate Now"></div>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
