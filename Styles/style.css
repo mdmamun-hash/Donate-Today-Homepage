@@ -30,6 +30,7 @@ font-weight: 700;
 }
 
 .description{
+width: 921px;
 color: rgba(255, 255, 255, 1);
 font-family: Poppins;
 font-size: 1.5rem;
@@ -147,4 +148,56 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 text-align: center;
+}
+
+.donate-plan{
+  width: 1520px;
+  margin: 0 auto 130px;
+}
+.donate-plan-title{
+margin-bottom: 26.5px;
+text-align: center;
+}
+.donate-plan-description{
+color: rgba(112, 112, 112, 1);
+margin-bottom: 66.5px;
+text-align: center;
+}
+.donate-plan-boxs{
+gap: 32px;
+}
+.donate-plan-boxs-img{
+  width: 70.5px;
+  height: 70.5px;
+  margin-bottom: 40px;
+}
+.donate-plan-boxs-title{ 
+color: rgba(18, 18, 18, 1);
+font-family: Poppins;
+font-size: 2rem;
+font-weight: 600;
+margin-bottom: 21px;
+}
+.donate-plan-boxs-description{
+color: rgba(112, 112, 112, 1);
+font-family: Poppins;
+font-size: 1.32rem;
+font-weight: 400;
+}
+.donate-plan-box{
+width: 480px;
+height: 469px;
+border-radius: 8px;
+}
+.donate-plan-box-content{
+  margin: 84px 30.5px 0;
+}
+#food{
+  background: rgba(79, 157, 166, 0.1);
+}
+#shelter{
+  background: rgba(255, 89, 89, 0.1) ;
+}
+#education{
+  background: rgba(255, 244, 214, 1);
 }
